@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>        <!-- Todo lo que va dentro del head NO SE VE, puede ir una descripción general de la página para ayudar a los buscadores a encontrarla, tipo de letra, palabras clave... -->
+    <meta charset="utf-8">                                            <!-- Esto es simplemente para el tipo de caracteres que vamos a usar, siempre incluirlo también -->
+    <title>Google by Brayan</title>                                <!-- Este titulo va a aparecer en la pestaña del navegador y en los marcadores, pero tampoco se ve -->
+     <link href="styles.css" rel="stylesheet" type="text/css">   <!-- Estamos referenciando el archivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">     <!-- Estamos referenciando la fuente de letra -->
+
+  </head>       <!-- Cerrar head -->
+
+
+<html>
+<body>
+    <div class="upper-links"> <!-- This is the div for the objects in the upper-right corner (Gmail, images, the 9 points and your picture)-->
+        <a class="upper-link" href="#"> Gmail </a>
+        <a class="upper-link" href="#"> Imágenes </a>
+        <a class="upper-link" href="#"> Puntitos </a>
+        <a href="#"> <img id="mypicture" alt="Your miniature picture" src="images/myphoto.png"> </a>
+
+    </div>
+
+    <div> <!-- The div for the center objects like the logo and the browse bar -->
+        <div>  <!-- The logo -->
+            <img class="google-logo" alt="Google imagen" src="images/googlelogo1.png" width="272" height="92">  
+        </div>
+        <form action="/search" method="GET"> 
+         <div class="cuadro-searcher"> 
+                <img id="lupa" src="images/lupa.png" alt="lupita de google" width="30px" height="30px">
+            <input id="searcher" type="text">
+        </div>
+
+                <div class="botones"> <!-- Div de los botones -->
+                    <button class="boton" type="submit">Buscar con Google</button>
+                    <button class="boton" type="submit">Me siento con suerte</button>
+                </div>
+        </form>
+
+        <p>Ofrecido por Google en: <a href="#"> English </a>    <a href="#">Español (Latinoamérica)</a></p>
+
+    </div>
+    <footer> <!-- Objetos de abajo -->
+        Colombia
+        <div class="lower-links">
+            <a class="upper-link" href="#"> Sobre Google </a>
+            <a class="upper-link" href="#"> Publicidad </a>
+            <a class="upper-link" href="#"> Negocios </a>
+            <a class="upper-link" href="#"> Como funciona la Búsqueda </a>
+            <a class="upper-link" href="#"> Privacidad  </a>
+            <a class="upper-link" href="#"> Condiciones </a>
+            <a class="upper-link" href="#"> Preferencias </a>
+        </div>
+    </footer>
+
+</body>
+</html>
