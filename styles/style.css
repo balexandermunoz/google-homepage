@@ -1,0 +1,124 @@
+
+    .google-logo {
+        display: block;
+        margin-left: auto;
+        margin-top: 100px;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .upper-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end ;
+        left: 600px;
+        color: black;
+        text-decoration: none;
+        font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    }
+
+    .upper-link {
+        position: relative;
+        margin: 10px;
+        color: black;
+        text-decoration: none;
+        font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    }
+    .upper-link:hover {
+        text-decoration: underline;
+    }
+
+    #mypicture{
+        height: 32px;
+        width: 32px;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 50px;
+        border-color: white;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column; /* Esto cambia la dirección de las cajas a tipo columna, así que ya el justify-center queda siento vertical y no horizontal */
+        align-items: center;    /* Ya en vez de justify usamos align-items, si la dirección es row (la que es por defecto) entonces si justify-items */
+    }
+
+    #searcher{
+        background-color: transparent;
+        border: none;
+        color: rgba(0,0,0,.87);
+        word-wrap: break-word;
+        outline: none;
+        flex: 100%;
+        margin-left: 15px;
+        margin-top: 3px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .cuadro-searcher{
+        background: #fff;
+        display: flex;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        margin-top: 20px;
+        z-index: 3;
+        height: 44px;
+        width: 482px;
+    }
+
+    .botones{
+        position: relative;
+        margin-top: 30px;
+    }
+    .boton{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        padding: 16px 16px;
+        margin-left: 10px;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .boton:hover{
+        border: 1px solid #c0c0c0;
+    }
+
+    #lupa{
+        margin-left: 12px;
+        margin-top: 6px;
+    }
+
+    p {
+        font-family: arial,sans-serif;
+        font-size: small;
+        text-align: center;
+        text-decoration: none;
+    }
+    a {
+    color: #1a0dab;
+    text-decoration: none;
+     }
+
+
+    .lower-link{
+
+    }
+
+    footer {
+    background-color: #eeeeee;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.lower-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
